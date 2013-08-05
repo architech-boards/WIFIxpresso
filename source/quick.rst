@@ -47,19 +47,21 @@ Set Up Hardware
 
 Perform the following steps to set up the hardware and prepare it for configuration:
 
-1. Plug the LPC1115 LPCXpresso Board connector into WIFIxpresso evaluation board.
+1. In LPCXpresso Board connect **J4 PIN1** to **J4 PIN2**, **J4 PIN3** to **J4 PIN4**, ... **J4 PIN15** to **J4 PIN16**.
 
-.. image:: _static/IMG1.PNG
+2. Plug the LPC1115 LPCXpresso Board connector into WIFIxpresso evaluation board.
 
-2. remove the two jumpers **J1** and **J2**
+.. image:: _static/IMG1.JPG
 
-3. connect the USB cable from the PC to the cards.
+3. remove the two jumpers **J1** and **J2**
 
-.. image:: _static/IMG4.PNG
+4. connect the USB cable from the PC to the cards.
 
-4. Optionally connect the **level shifter** from the connector **CN1** to the PC 
+.. image:: _static/IMG4.JPG
 
-5. make sure that the router is connected to internet and it is configured to accept the connection of the module RN-131C and it can access the internet.
+5. Optionally connect the **level shifter** from the connector **CN1** to the PC 
+
+6. make sure that the router is connected to internet and it is configured to accept the connection of the module RN-131C and it can access the internet.
 
 .. index:: Install software
 

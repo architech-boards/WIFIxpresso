@@ -17,7 +17,7 @@ Welcome to WIFIxpresso Board by Silica Architech's documentation!
 | It was designed to be connected to the **LPC1115 LPCXpresso board**.
 | The project provides a demo developed with the **LPCXpresso IDE** and through the microcontroller **LPC1115** configures the **RN-131C** module to operate in different modes.
 
-.. image:: _static/IMG1.PNG
+.. image:: _static/IMG1.JPG
 
 .. image:: _static/IMG2.JPG
 
