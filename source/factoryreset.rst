@@ -38,5 +38,5 @@ To reset to the factory settings the **RN-131C** module means hardware you need 
 
 2. start the demo
 
-3. take off and put the jumper **J2** until the **LED3**,**LED4**,**LED5** do not flash.
+3. take off and put the jumper **J2** until the **LED3**, **LED5** do not flash.
 

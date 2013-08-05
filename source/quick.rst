@@ -49,13 +49,13 @@ Perform the following steps to set up the hardware and prepare it for configurat
 
 1. Plug the LPC1115 LPCXpresso Board connector into WIFIxpresso evaluation board.
 
-[ IMG 3 ]
+.. image:: _static/IMG1.PNG
 
 2. remove the two jumpers **J1** and **J2**
 
 3. connect the USB cable from the PC to the cards.
 
-[ IMG 4 ]
+.. image:: _static/IMG4.PNG
 
 4. Optionally connect the **level shifter** from the connector **CN1** to the PC 
 
@@ -111,7 +111,7 @@ The message **associating ...** will appear on the debug console.
 
 3. After 10 seconds if it fails to join the demo will set the module as an Access Point (SOFT AP).
 Once set, the message on the debug console **Config w / Browser http://5.16.71.1**.
-In this state, the demo application will work as a small webserver.
+In this state, the demo application will work as a small webserver, blue **LED2** blinks and red **LED4** is turned on.
 
 4. The demo in this state, it is waiting for a connection request from a **browser**. 
 As an Access Point, the module’s IP address is **5.16.71.1**. Its SSID is **mttSoftAP_xx_yy**, where xx & yy, are the last two hex bytes of the module’s MAC address (example mttSoftAP_03_06). 

@@ -17,7 +17,7 @@ Welcome to WiFly Board by Silica Architech's documentation!
 | It was designed to be connected to the **LPC1115 LPCXpresso board**.
 | The project provides a demo developed with the **LPCXpresso IDE** and through the microcontroller **LPC1115** configures the **RN-131C** module to operate in different modes.
 
-[ IMG 1 con lpc link e la board rsr  ]
+.. image:: _static/IMG1.PNG
 
 .. image:: _static/IMG2.JPG
 
@@ -36,7 +36,8 @@ Welcome to WiFly Board by Silica Architech's documentation!
 	http://www.nxp.com/products/microcontrollers/cortex_m0_m0/LPC1115FBD48.html
 
 * Connected to the WIFIxpresso daughterboard:
-	sito da fornire
+
+.. image:: _static/IMG0.PNG
 
 * Microchip RN-131C:
 	http://www.microchip.com/wwwproducts/Devices.aspx?dDocName=en558369
