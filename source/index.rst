@@ -2,8 +2,8 @@
    sphinx-quickstart on Wed Apr 10 11:13:41 2013.
    You can adapt to your liking the file, being careful that the directive contains the root 'toctree'
 
-Welcome to WiFly Board by Silica Architech's documentation!
-===========================================================
+Welcome to WIFIxpresso Board by Silica Architech's documentation!
+=================================================================
 
 :Version: 1.0.0
 :Copyright: (C)2013 Silica an Avnet company
