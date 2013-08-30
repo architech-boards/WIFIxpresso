@@ -8,7 +8,7 @@ Factory Reset
 by terminal
 -----------
 
-It can be possible reset to factory defaults module **RN-131C** through the pass-through mode with the following commands:
+It can be possible reset to factory defaults module **RN-131C** through the :ref:`passthrough` with the following commands:
 
 1. Place the mode **RN-131C** module in command mode
 
@@ -31,6 +31,8 @@ It can be possible reset to factory defaults module **RN-131C** through the pass
 
 by hardware
 -----------
+
+.. image:: _static/IMG13.jpg
 
 To reset to the factory settings the **RN-131C** module means hardware you need to follow the following steps:
 
