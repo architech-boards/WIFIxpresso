@@ -167,7 +167,7 @@ It is important that there are no filters on the network that prevent the module
 8. Set the PC to access the access point and go with the company http://mtt.mchpcloud.com browser to the site. 
 Log in and select the name chosen previously, for example **MYRN131MODULE**. 
 Press the **Connect** button to enable communication between the module and the WiFly cloud server. 
-Once connected you will see on the website the data transmitted from the demo.
+Once connected you will see on the website the data transmitted from the demo. In this state if all works correctly you will see all leds **LED1, LED2, LED3, LED4** turned on and LED5 blinking slowly.
 
 .. image:: _static/IMG12.JPG
 
