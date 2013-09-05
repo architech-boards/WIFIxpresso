@@ -21,7 +21,7 @@ To run the demo application, you need the following hardware:
 
 * A pc/laptop with Windows operating system and a WiFi device
 
-* 2 female strip (1x20) to soldier in LPCXpresso Board
+* 2 male strip (1x20) to soldier in LPCXpresso Board
 
 |
 | Optionally (for :ref:`passthrough`)
@@ -67,7 +67,7 @@ Perform the following steps to set up the hardware and prepare it for configurat
 
 .. image:: _static/IMG14.jpg
 
-2. solder two female strip (1x20) on the LPCxpresso board in:
+2. solder two male strip (1x20) on the LPCxpresso board in:
 
 ::
 
