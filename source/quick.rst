@@ -143,7 +143,7 @@ Run demo first time
 
 2. All messages of the demo will be displayed on the debug console LPCXpresso IDE, see *options.h* for details.
 After initialization, the dispositive will try to associate with an Access Point within 10 seconds.
-The message **associating ...** will appear on the debug console.
+The message **associating ...** will appear on the debug console. In this state only LED2 blinks.
 
 3. After 10 seconds if it fails to join the demo will set the module as an Access Point (SOFT AP).
 Once set, appear the message on the debug console **Config w / Browser http://5.16.71.1**.
