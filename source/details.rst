@@ -3,7 +3,7 @@ Firmware Details
 
 .. index:: Webserver tips
 
-The starting project taken from lpcopen is *nxp_xpresso_11c24_periph_uart*.  From the design of microchips improvements have been made in the management of web server software, the main changes are:
+This project is taken from `LPCOPEN v1.03 <http://www.lpcware.com/content/nxpfile/lpcopen-platform>`_. The starting demo project taken from lpcopen is *nxp_xpresso_11c24_periph_uart*. After which it was ported the project microchip '`RN171 and RN131 PICtail WebServer <http://www.microchip.com/stellent/idcplg?IdcService=SS_GET_PAGE&nodeId=1406&dDocName=en559511>`_'. From the design of microchips improvements have been made in the management of web server software, the main changes are in **sys_tasks.c**:
 
 * The sending of the icon **favicon.ico**. Browsers require this icon automatically after loading an html page. Do not send it determines the possible malfunction of certain browser.
 

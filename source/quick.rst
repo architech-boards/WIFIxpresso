@@ -21,10 +21,12 @@ To run the demo application, you need the following hardware:
 
 * A pc/laptop with Windows operating system and a WiFi device
 
-|
-| Optionally (for demo :ref:`passthrough`)
+* 2 female strip (1x20) to soldier in LPCXpresso Board
 
-* level shifter UART 3v3
+|
+| Optionally (for :ref:`passthrough`)
+
+* A **UART interface (3,3V level only)** to connect WIFIxpresso to your pc. **This interface is not provided**.
 
 .. index:: Software Requirements
 
@@ -39,7 +41,7 @@ Software Requirements
 |
 | Optionally (for demo :ref:`passthrough`)
 
-* Terminal emulator application such as Hyperterminal or other with UART support. 
+* Terminal emulator application such as Hyperterminal or other with **UART** support. 
 
 .. note::
 
@@ -50,7 +52,11 @@ Set Up Software
 
 1. Install the **IDE LPCExpresso** and following the instructions of **default**
 
-2. Go to **Help->Register** !!!!!!!!!!!!!!!!!!! da vedere
+2. Launch LPCExpresso and select a workspace folder
+
+3. In the menu go to **Help → Product activation → Create serial number and activate**. Follow the instructions to register the software
+
+4. When you will have an activation code go to **Help → Enter Activate Code**
 
 Set Up Hardware
 ---------------
@@ -61,24 +67,37 @@ Perform the following steps to set up the hardware and prepare it for configurat
 
 .. image:: _static/IMG14.jpg
 
-2. Plug the LPC1115 LPCXpresso Board connector into WIFIxpresso evaluation board, LPCXpresso **J6 PIN1** in WIFIxpresso **U1 PIN1**
+2. solder two female strip (1x20) on the LPCxpresso board in:
+
+::
+
+ J6 from PIN1 (GND) to PIN20 (AD5)
+ J6 from PIN28 (3V3) to PIN47 (P2.5)
+
+3. Mount the LPC1115 LPCXpresso Board connectors on WIFIxpresso evaluation board. LPCXpresso **J6 PIN1** must be connect in WIFIxpresso **U1 PIN1** ... **J6 PIN20** to **U1 PIN20** ... **J6 PIN47** to **U1 PIN40** ... **J6 PIN28** to **U1 PIN21**.
 
 .. image:: _static/IMG13.jpg
 .. image:: _static/IMG1.JPG
 
-3. remove the two jumpers **J1** and **J2** from **WIFIxpresso**
+4. remove the two jumpers **J1** and **J2** from **WIFIxpresso**
 
-4. Connect PC to boards with mini-USB cables.
+5. Connect PC to boards with mini-USB cables.
 
 .. image:: _static/IMG4.JPG
 
-5. Optionally connect the **level shifter** from the connector WIFIxpresso **CN1** to the PC if you want see the communication between the LPC1115 and the WiFi module.
+6. Optionally connect the **UART interface** (**not provided**) from the connector WIFIxpresso **CN1** (**UART 3,3V level only**) to the PC if you want see the communication between the LPC1115 and the WiFi module. The UART configuration is **Baud: 9600, Data: 8bit, Parity: None, 1bit stop, Flow: None**
 
-6. make sure that the router is connected to internet and it is configured to accept the connection of the module RN-131C and it can access the internet. 
+::
 
-* Set a secure Wi-Fi authentication schemes (WEP / WPA / WPA2).
+ PIN1 = LPC_UART_RX (3,3V level)
+ PIN2 = LPC_UART_TX (3,3V level)
+ PIN3 = GND
 
-* Enable DHCP
+7. make sure that the router is connected to internet and it is configured to accept the connection of the module RN-131C and it can access the internet. Router must have:
+
+* A secure Wi-Fi authentication schemes (WEP / WPA / WPA2).
+
+* DHCP enabled
 
 .. index:: Install software
 

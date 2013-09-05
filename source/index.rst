@@ -33,7 +33,7 @@ Welcome to WIFIxpresso Board by Silica Architech's documentation!
 
   	* LPC1115 LPCXpresso board
   	* mBed board 
-* 1 UART for debugging purpose 
+* 1 UART 3,3V level for debugging purpose 
 * 5 status leds 
 * Power supply by mini-usb
 
