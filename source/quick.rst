@@ -141,6 +141,10 @@ Run demo first time
 
 .. image:: _static/IMG9.JPG
 
+then once the progam is been uploaded, press:
+
+.. image:: _static/IMG15.JPG
+
 2. All messages of the demo will be displayed on the debug console LPCXpresso IDE, see *options.h* for details.
 After initialization, the dispositive will try to associate with an Access Point within 10 seconds.
 The message **associating ...** will appear on the debug console. In this state only LED2 blinks.
