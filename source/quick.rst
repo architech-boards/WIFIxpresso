@@ -130,7 +130,7 @@ The imported project should appear in the **Project Browser** window.
 .. image:: _static/IMG8.JPG
 
 
-3. Compile it by selecting from the menu **Project → Build → Build All**
+3. Compile it by selecting from the menu **Project → Build → Build All**. If the compilation fails, for all node in **Project Explorer** window open the properties form and go to **Settings → Include** and modify the relative paths in absolutes. Then retry to compile.
 
 .. index:: Run demo
 
