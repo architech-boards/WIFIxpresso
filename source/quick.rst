@@ -11,7 +11,7 @@ To run the demo application, you need the following hardware:
 
 * LPC1115 LPCXpresso Board
 
-* Architech WIFIxpresso daughterboard
+* Architech Prado daughterboard
 
 * 802.11b/g-compliant Wi-Fi access point **with internet access**
 
@@ -26,7 +26,7 @@ To run the demo application, you need the following hardware:
 |
 | Optionally (for :ref:`passthrough`)
 
-* A **UART interface (3,3V level only)** to connect WIFIxpresso to your pc. **This interface is not provided**.
+* A **UART interface (3,3V level only)** to connect Prado to your pc. **This interface is not provided**.
 
 .. index:: Software Requirements
 
@@ -74,18 +74,18 @@ Perform the following steps to set up the hardware and prepare it for configurat
  J6 from PIN1 (GND) to PIN20 (AD5)
  J6 from PIN28 (3V3) to PIN47 (P2.5)
 
-3. Mount the LPC1115 LPCXpresso Board connectors on WIFIxpresso evaluation board. LPCXpresso **J6 PIN1** must be connect in WIFIxpresso **U1 PIN1** ... **J6 PIN20** to **U1 PIN20** ... **J6 PIN47** to **U1 PIN40** ... **J6 PIN28** to **U1 PIN21**.
+3. Mount the LPC1115 LPCXpresso Board connectors on Prado evaluation board. LPCXpresso **J6 PIN1** must be connect in Prado **U1 PIN1** ... **J6 PIN20** to **U1 PIN20** ... **J6 PIN47** to **U1 PIN40** ... **J6 PIN28** to **U1 PIN21**.
 
 .. image:: _static/IMG13.jpg
 .. image:: _static/IMG1.JPG
 
-4. remove the two jumpers **J1** and **J2** from **WIFIxpresso**
+4. remove the two jumpers **J1** and **J2** from **Prado**
 
 5. Connect PC to boards with mini-USB cables.
 
 .. image:: _static/IMG4.JPG
 
-6. Optionally connect the **UART interface** (**not provided**) from the connector WIFIxpresso **CN1** (**UART 3,3V level only**) to the PC if you want see the communication between the LPC1115 and the WiFi module. The UART configuration is **Baud: 9600, Data: 8bit, Parity: None, 1bit stop, Flow: None**
+6. Optionally connect the **UART interface** (**not provided**) from the connector Prado **CN1** (**UART 3,3V level only**) to the PC if you want see the communication between the LPC1115 and the WiFi module. The UART configuration is **Baud: 9600, Data: 8bit, Parity: None, 1bit stop, Flow: None**
 
 ::
 
@@ -120,7 +120,7 @@ Microchip Demo
 2. Importing the demo into your **LPCXpresso workspace**
 To use the projects in LPCXpresso, they **must first be imported into LPCXpresso**. To import the projects, go to **File → Import → General → Existing Projects** and press **Next**.
 On the import dialog window in the **Select root directory** box, browse to the platform directory **lpcopen/applications/lpc11xx/xpresso_projects/nxp_xpresso_11c24/**.
-Select **nxp_xpresso_11c24_board_lib** and **WIFIxpresso**.
+Select **nxp_xpresso_11c24_board_lib** and **Prado**.
 Make sure the **Copy projects to workspace** option is **disabled**. Then select **Finish** to start the import.
 
 .. image:: _static/IMG7.JPG
@@ -137,7 +137,7 @@ The imported project should appear in the **Project Browser** window.
 Run demo first time
 -------------------
 
-1. Choose WIFIxpresso in project explorer and launch debugging by pressing the icon showed below:
+1. Choose Prado in project explorer and launch debugging by pressing the icon showed below:
 
 .. image:: _static/IMG9.JPG
 

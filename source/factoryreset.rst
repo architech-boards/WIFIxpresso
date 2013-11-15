@@ -8,7 +8,7 @@ Factory Reset
 by terminal
 -----------
 
-.. warning:: For using this mode you need a **UART interface (3,3V level only)** to connect WIFIxpresso to your pc. **This interface is not provided**.
+.. warning:: For using this mode you need a **UART interface (3,3V level only)** to connect Prado to your pc. **This interface is not provided**.
 
 It can be possible reset to factory defaults module **RN-131C** through the :ref:`passthrough` with the following commands:
 

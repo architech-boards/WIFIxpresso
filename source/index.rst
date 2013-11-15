@@ -1,8 +1,8 @@
-.. WIFIxpresso Board by Silica Architech documentation master file, created by
+.. Prado Board by Silica Architech documentation master file, created by
    sphinx-quickstart on Wed Apr 10 11:13:41 2013.
    You can adapt to your liking the file, being careful that the directive contains the root 'toctree'
 
-Welcome to WIFIxpresso Board by Silica Architech's documentation!
+Welcome to Prado Board by Silica Architech's documentation!
 =================================================================
 
 :Version: 1.0.0
@@ -22,12 +22,12 @@ Welcome to WIFIxpresso Board by Silica Architech's documentation!
 .. image:: _static/IMG2.JPG
 
 | 
-| The daughterboard Architech WIFIxpresso of Silica helps to access the `WiFly RN-131C <http://www.microchip.com/wwwproducts/Devices.aspx?dDocName=en558369>`_ module (version **4.00**) of **Microchip**.
+| The daughterboard Architech Prado of Silica helps to access the `WiFly RN-131C <http://www.microchip.com/wwwproducts/Devices.aspx?dDocName=en558369>`_ module (version **4.00**) of **Microchip**.
 | It was designed to be connected to the `LPC1115 LPCXpresso board <http://www.embeddedartists.com/products/lpcxpresso/lpc1115_xpr.php>`_.
 | The project provides a demo developed with the **LPCXpresso IDE** and through the microcontroller **LPC1115** configures the **RN-131C** module to operate in different modes.
 | 
 
-**Architech WIFIxpresso Features:**
+**Architech Prado Features:**
 
 * Interfaceable with:
 
@@ -55,7 +55,7 @@ Welcome to WIFIxpresso Board by Silica Architech's documentation!
 	* http://www.nxp.com/techzones/microcontrollers-techzone/tools-ecosystem/lpcxpresso.html
 	* http://www.nxp.com/products/microcontrollers/cortex_m0_m0/LPC1115FBD48.html
 
-* Connected to the WIFIxpresso daughterboard:
+* Connected to the Prado daughterboard:
 
 .. image:: _static/IMG0.PNG
 

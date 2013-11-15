@@ -5,7 +5,7 @@
 Pass-Through Mode
 =================
 
-.. warning:: For using this mode you need a **UART interface (3,3V level only)** to connect WIFIxpresso to your pc. **This interface is not provided**.
+.. warning:: For using this mode you need a **UART interface (3,3V level only)** to connect Prado to your pc. **This interface is not provided**.
 
 The demo provided can operate in **pass-through mode**. 
 Enable this mode to be able to send and receive commands to the console manually through terminal WiFly module.
@@ -24,7 +24,7 @@ In order to enable this mode follow the following steps:
 
 3. The UART configuration is **Baud: 9600, Data: 8bit, Parity: None, 1bit stop, Flow: None**
 
-4. Connect **WIFIxpresso** to the **PC**
+4. Connect **Prado** to the **PC**
 
 5. When the demo starts, **LED1** remain always turned on.
 
