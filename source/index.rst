@@ -8,7 +8,6 @@ Welcome to Prado Board by Silica Architech's documentation!
 :Version: 1.0.0
 :Copyright: (C)2013 Silica an Avnet company
 
-.. image:: _static/silicalogo.png
 .. image:: _static/microchiplogo.png
 
 | 
